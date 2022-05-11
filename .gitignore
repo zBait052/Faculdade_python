@@ -1,1 +1,12 @@
-for i in
+numero = 0
+while (numero < 100):
+    print(numero)
+    numero += 1
+
+numeroprocurado = int(input("Qual numero você procura?:"))
+numero = 0
+while numero < numeroprocurado
+    if(numeroprocurado):
+        print(numeroprocurado)
+    else:
+        print("Não tem")
