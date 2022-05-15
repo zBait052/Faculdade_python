@@ -1,12 +1,24 @@
-numero = 0
-while (numero < 100):
-    print(numero)
-    numero += 1
+minhaLista2 = [1, "Silva", 4.5]
+minhaLista2[0] = 2
+minhaLista2[1] = "João da Silva"
+print(minhaLista2)
+print()
 
-numeroprocurado = int(input("Qual numero você procura?:"))
-numero = 0
-while numero < numeroprocurado
-    if(numeroprocurado):
-        print(numeroprocurado)
-    else:
-        print("Não tem")
+minhaLista3 = ["João", "Maria", "Anna", "Silva"]
+minhaLista3.pop()
+minhaLista3.pop()
+minhaLista3.pop()
+print(minhaLista3)
+print()
+
+minhaLista4 = ["João", "Maria", "Anna", "Silva"]
+minhaLista4.remove("Maria")
+print(minhaLista4)
+print()
+
+minhaLista5 = ["João", "Maria", "Anna", "Silva"]
+minhaLista5.pop()
+minhaLista5.pop()
+minhaLista5.append("Fernanda")
+print(minhaLista5)
+
